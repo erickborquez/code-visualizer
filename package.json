@@ -1,0 +1,36 @@
+{
+  "name": "code-visualizer",
+  "version": "1.0.0",
+  "description": "Online platform to visualizer code",
+  "main": "index.js",
+  "scripts": {
+    "dev": "scripty",
+    "build": "scripty",
+    "clean": "scripty",
+    "lint": "scripty",
+    "test": "scripty",
+    "format": "scripty",
+    "postinstall": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickJoestar/code-visualizer.git"
+  },
+  "author": "Erick Borquez <erickborquez@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErickJoestar/code-visualizer/issues"
+  },
+  "homepage": "https://github.com/ErickJoestar/code-visualizer#readme",
+  "dependencies": {
+    "lerna": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.0.0"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
