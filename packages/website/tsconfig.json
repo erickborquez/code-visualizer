@@ -1,4 +1,6 @@
 {
+  "extends": "../tsconfig.settings.json",
+  "references": [{ "path": "../types" }, { "path": "../components" }],
   "compilerOptions": {
     "composite": true,
     "target": "es5",
@@ -16,6 +18,5 @@
     "jsx": "preserve"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"],
-  "references": [{ "path": "../components" }]
+  "exclude": ["node_modules"]
 }

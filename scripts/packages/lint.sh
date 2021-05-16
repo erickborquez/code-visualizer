@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-echo "┏━━━ 🕵️‍♀️ LINT: eslint src --ext ts,js,tsx,jsx ━━━━━━━"
-eslint src --ext ts,js,tsx,jsx
+echo "┏━━━ 🕵️‍♀️ LINT $(pwd): eslint src --ext ts,js,tsx,jsx ━━━━━━━"
+eslint src --ext ts,js,tsx,jsxx

@@ -1,0 +1,26 @@
+{
+  "name": "@code-visualizer/types",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "test": "scripty",
+    "lint": "scripty",
+    "dev": "scripty",
+    "format": "scripty",
+    "build": "scripty"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "scripty": "^2.0.0",
+    "eslint": "^7.24.0",
+    "prettier": "^2.2.1"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
+  }
+}

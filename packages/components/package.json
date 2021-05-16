@@ -1,40 +1,31 @@
 {
-  "name": "components",
+  "name": "@code-visualizer/components",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Erick Borquez <erickborquez@gmail.com>",
-  "homepage": "https://github.com/ErickJoestar/code-visualizer/tree/main/packages/components#readme",
-  "license": "ISC",
   "main": "dist/index.js",
-  "source": "src/index.tsx",
-  "directories": {
-    "src": "src"
-  },
-  "files": [
-    "dist"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ErickJoestar/code-visualizer.git"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "microbundle watch --jsx React.createElement",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "clean": "rimraf dist *.tsbuildinfo",
-    "format": "scripty"
-  },
-  "bugs": {
-    "url": "https://github.com/ErickJoestar/code-visualizer/issues"
+    "format": "scripty",
+    "lint": "scripty"
   },
   "devDependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "microbundle": "^0.13.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "eslint": "^7.24.0",
+    "prettier": "^2.2.1",
+    "scripty": "^2.0.0"
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "@code-visualizer/types": "*"
   },
   "scripty": {
     "path": "../../scripts/packages"

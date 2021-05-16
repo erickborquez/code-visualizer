@@ -1,3 +1,4 @@
+import { Type } from "@code-visualizer/types";
 import React from "react";
 
 interface Props {
@@ -5,5 +6,11 @@ interface Props {
 }
 
 export const Button = ({ name }: Props) => {
-  return <button>{name}</button>;
+  const e: Type = "asdasd";
+  console.log(e);
+  return <button>{name}ddddd</button>;
+};
+
+export const Erick = () => {
+  return <Button name="Erick erick erick" />;
 };

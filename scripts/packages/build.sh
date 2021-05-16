@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 echo "┏━━━ 📦 Building $(pwd) ━━━━━━━━━━━━━━━━━━━"
-tsc -b
+npx tsc -b --pretty                                           

@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
     "types": [],
     "sourceMap": true,
-    "target": "ESNext",
+    "target": "ES2018",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
