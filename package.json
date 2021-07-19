@@ -4,13 +4,14 @@
   "description": "Online platform to visualize code",
   "scripts": {
     "dev:website": "scripty",
-    "dev": "SCRIPTY_PARALLEL=true scripty",
+    "dev": "scripty",
     "build": "scripty",
     "clean": "scripty",
     "lint": "scripty",
     "test": "scripty",
     "format": "scripty",
-    "bootstrap": "scripty"
+    "bootstrap": "scripty",
+    "storybook": "scripty"
   },
   "repository": {
     "type": "git",
